@@ -26,6 +26,13 @@
     left: 50%;
     top: 20%;
     transform: translate(-50%, 0);
-
     border-radius: 100% / 60% 60% 120% 120%;
+}
+
+.mouth {
+    width: 80%;
+    height: 20%;
+    background: #00f4;
+    border-radius: 100%;
+    border-bottom: 0.5vmin solid black;
 }
