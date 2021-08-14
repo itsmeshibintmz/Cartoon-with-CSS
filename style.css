@@ -26,4 +26,6 @@
     left: 50%;
     top: 20%;
     transform: translate(-50%, 0);
+
+    border-radius: 100% / 60% 60% 120% 120%;
 }
