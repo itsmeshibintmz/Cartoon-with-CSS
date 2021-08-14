@@ -1,4 +1,5 @@
 #cartoon {
+    --line: #222;
     --skin: #fca;
     width: 80vmin;
     height: 80vmin;
@@ -9,6 +10,7 @@
     position: absolute;
     top: 50%;
     left: 50%transform: translate(-50%, -50%);
+    color: var(--line);
 }
 
 #cartoon div, 
@@ -17,6 +19,7 @@
     content: "";
     position: absolute;
     display: block;
+    box-sizing: border-box;
 }
 
 .face {
@@ -27,12 +30,15 @@
     top: 20%;
     transform: translate(-50%, 0);
     border-radius: 100% / 60% 60% 120% 120%;
+    border: 0.5vmin solid;
 }
 
 .mouth {
-    width: 80%;
-    height: 20%;
-    background: #00f4;
+    width: 50%;
+    height: 12%;
     border-radius: 100%;
-    border-bottom: 0.5vmin solid black;
+    box-shadow: -0.5vmin 1.4vmin 0 -1vmin;
+    top: 68%;
+    left: 50%;
+    transform: translateX(-50%) rotate(5deg);
 }
