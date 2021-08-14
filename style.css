@@ -2,7 +2,7 @@
     --skin: #fca;
     width: 80vmin;
     height: 80vmin;
-    background: #f007;
+    background: #f001;
     background-image: 
     repeating-linear-gradient(#0000 0 9.5%, #0002 10%),
     repeating-linear-gradient(to left, #0000 0 9.5%, #0002 10%);
@@ -23,4 +23,7 @@
     width: 45%;
     height : 60%;
     background: var(--skin);
+    left: 50%;
+    top: 20%;
+    transform: translate(-50%, 0);
 }
