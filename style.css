@@ -78,7 +78,7 @@
     box-shadow: 
         0 -0.125vmin,
         0 -2vmin 0 1vmin var(--skin),
-        0 -4vmin;
+        -0.25vmin -6vmin 0 -0.5vmin;
 }
 
 .eye + .eye {
