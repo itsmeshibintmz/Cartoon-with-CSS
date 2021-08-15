@@ -75,7 +75,10 @@
     border-radius: 100% /100% 60% 10% 15%;
     overflow: hidden;
     transform: rotate(-4deg);
-    box-shadow: 0 -0.125vmin;
+    box-shadow: 
+        0 -0.125vmin,
+        0 -2vmin 0 1vmin var(--skin),
+        0 -4vmin;
 }
 
 .eye + .eye {
