@@ -74,9 +74,3 @@
     border-radius: 100% /100% 60% 15% 20%;
 }
 
-.eye::before {
-    width: 5vmin; 
-    height:5vmin; 
-    background: red;
-
-}
