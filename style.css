@@ -96,5 +96,19 @@
     radial-gradient(circle at 30% 32%, #fff 7%, #0000 0),
     radial-gradient(circle at 40% 27%, #fff 4%, #0000 0),
     radial-gradient(var(--line) 35%, #0000 0);
+}
 
+.eye + .eye .pupil {
+    transform: scaleX(-1);
+}
+
+.nose {
+    background: #00f4;
+    width: 20%;
+    height: 12%;
+    border-radius: 50%;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    box-shadow: 0.5vmin -0.5vmin
 }
